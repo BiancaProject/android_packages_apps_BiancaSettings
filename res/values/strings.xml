@@ -116,4 +116,8 @@
     <string name="separators_notification_header_title">Separators in header</string>
     <string name="separators_notification_header_summary">Add separators in notification headers</string>
     <string name="notification_header_gravity_title">Notification Header Text Gravity</string>
+
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade</string>
 </resources>
