@@ -19,6 +19,10 @@
     <string name="bianca_settings_title">Customization</string>
     <string name="bianca_dashboard_summary">Custom your rom</string>
 
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Advanced restart</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+
     <!-- Categories -->
     <string name="animations_title">Animations</string>
     <string name="interface_title">Interface</string>
