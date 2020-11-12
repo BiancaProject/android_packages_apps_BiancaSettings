@@ -20,23 +20,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/bianca_settings_title" >
 
-        <!-- Status Bar -->
-        <com.bianca.settings.preferences.CardviewPreference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
-            android:icon="@drawable/ic_settings_statusbar">
-            <intent
-                android:targetPackage="org.lineageos.lineageparts"
-                android:targetClass="org.lineageos.lineageparts.statusbar.StatusBarSettings"/>
-        </com.bianca.settings.preferences.CardviewPreference>
-
-        <!-- Quick Settings panel -->
-        <com.bianca.settings.preferences.CardviewPreference
-            android:key="quicksettings_category"
-            android:title="@string/quicksettings_title"
-            android:fragment="com.bianca.settings.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
-
         <!-- Buttons -->
         <com.bianca.settings.preferences.CardviewPreference
             android:key="buttonsettings_category"
@@ -47,19 +30,33 @@
                 android:targetClass="org.lineageos.lineageparts.input.ButtonSettings"/>
         </com.bianca.settings.preferences.CardviewPreference>
 
-        <!-- Navigation Bar
+        <!-- Disabled - Lock Screen
+        <com.bianca.settings.preferences.CardviewPreference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title"
+            android:fragment="com.bianca.settings.fragments.LockscreenSettings"
+            android:icon="@drawable/ic_settings_lockscreen"/> -->
+
+        <!-- Disabled - Misc
+        <com.bianca.settings.preferences.CardviewPreference
+            android:key="misc_category"
+            android:title="@string/misc_title"
+            android:fragment="com.bianca.settings.fragments.MiscSettings"
+            android:icon="@drawable/ic_settings_misc"/> -->
+
+        <!-- Disabled - Navigation Bar
         <com.bianca.settings.preferences.CardviewPreference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
             android:fragment="com.bianca.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/> -->
 
-        <!-- Lock Screen
+        <!-- Disabled - Notifications
         <com.bianca.settings.preferences.CardviewPreference
-            android:key="lockscreen_category"
-            android:title="@string/lockscreen_title"
-            android:fragment="com.bianca.settings.fragments.LockscreenSettings"
-            android:icon="@drawable/ic_settings_lockscreen"/> -->
+            android:key="notifications_category"
+            android:title="@string/notifications_title"
+            android:fragment="com.bianca.settings.fragments.NotificationSettings"
+            android:icon="@drawable/ic_settings_notifications"/> -->
 
         <!-- Power Menu -->
         <com.bianca.settings.preferences.CardviewPreference
@@ -68,17 +65,21 @@
             android:fragment="com.bianca.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Notifications
+        <!-- Quick Settings panel -->
         <com.bianca.settings.preferences.CardviewPreference
-            android:key="notifications_category"
-            android:title="@string/notifications_title"
-            android:fragment="com.bianca.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/> -->
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title"
+            android:fragment="com.bianca.settings.fragments.QuickSettings"
+            android:icon="@drawable/ic_settings_quicksettings"/>
 
-        <!-- Misc -->
+        <!-- Status Bar -->
         <com.bianca.settings.preferences.CardviewPreference
-            android:key="misc_category"
-            android:title="@string/misc_title"
-            android:fragment="com.bianca.settings.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_misc"/>
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title"
+            android:icon="@drawable/ic_settings_statusbar">
+            <intent
+                android:targetPackage="org.lineageos.lineageparts"
+                android:targetClass="org.lineageos.lineageparts.statusbar.StatusBarSettings"/>
+        </com.bianca.settings.preferences.CardviewPreference>
+
 </PreferenceScreen>
