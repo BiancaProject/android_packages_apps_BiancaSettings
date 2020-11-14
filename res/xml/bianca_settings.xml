@@ -62,7 +62,8 @@
         <com.bianca.settings.preferences.CardviewPreference
             android:key="powermenu__category"
             android:title="@string/powermenu_title"
-            android:fragment="com.bianca.settings.fragments.PowermenuSettings"
+            android:fragment="com.android.settings.gestures.PowerMenuSettings"
+            settings:controller="com.android.settings.gestures.PowerMenuPreferenceController"
             android:icon="@drawable/ic_settings_powermenu"/>
 
         <!-- Quick Settings panel -->
