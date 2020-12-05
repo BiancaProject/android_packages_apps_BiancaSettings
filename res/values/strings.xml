@@ -47,4 +47,8 @@
     <string name="qs_columns_portrait_title">Columns (Portrait)</string>
     <string name="qs_columns_landscape_title">Columns (Landscape)</string>
 
+    <!-- Lockscreen battery info indicator -->
+    <string name="lockscreen_battery_info_title">Battery info</string>
+    <string name="lockscreen_battery_info_summary">Display battery info when charging</string>
+
 </resources>
