@@ -30,12 +30,11 @@
                 android:targetClass="org.lineageos.lineageparts.input.ButtonSettings"/>
         </com.bianca.settings.preferences.CardviewPreference>
 
-        <!-- Disabled - Lock Screen
         <com.bianca.settings.preferences.CardviewPreference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.bianca.settings.fragments.LockscreenSettings"
-            android:icon="@drawable/ic_settings_lockscreen"/> -->
+            android:icon="@drawable/ic_settings_lockscreen"/>
 
         <!-- Disabled - Misc
         <com.bianca.settings.preferences.CardviewPreference
