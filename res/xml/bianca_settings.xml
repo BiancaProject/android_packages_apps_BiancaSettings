@@ -30,6 +30,13 @@
                 android:targetClass="org.lineageos.lineageparts.input.ButtonSettings"/>
         </com.bianca.settings.preferences.CardviewPreference>
 
+        <!-- Gaming mode -->
+        <com.bianca.settings.preferences.CardviewPreference
+            android:key="gaming_category"
+            android:title="@string/gaming_title" 
+            android:fragment="com.bianca.settings.fragments.GamingModeSettings"
+            android:icon="@drawable/ic_settings_gaming"/>
+
         <com.bianca.settings.preferences.CardviewPreference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
