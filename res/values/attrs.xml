@@ -16,4 +16,8 @@
 -->
 <resources>
 
+    <declare-styleable name="PackageListPreferenceView">
+        <attr name="bianca_showSystemApps" format="boolean" />
+    </declare-styleable>
+
 </resources>
