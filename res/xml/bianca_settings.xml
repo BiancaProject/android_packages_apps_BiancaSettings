@@ -57,12 +57,11 @@
             android:fragment="com.bianca.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/> -->
 
-        <!-- Disabled - Notifications
         <com.bianca.settings.preferences.CardviewPreference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.bianca.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/> -->
+            android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Power Menu -->
         <com.bianca.settings.preferences.CardviewPreference
