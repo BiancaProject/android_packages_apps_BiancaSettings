@@ -72,6 +72,7 @@ public class GamingModeSettings extends SettingsPreferenceFragment implements On
 
         if (!performance_supported) {
             prefScreen.removePreference(perfCat);
+        }
 
         mUseMenuSwitch = (SwitchPreference) findPreference("gaming_mode_use_overlay_menu");
         mDanmaku = (Preference) findPreference("gaming_mode_notification_danmaku");
