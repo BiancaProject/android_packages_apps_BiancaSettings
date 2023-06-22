@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018 The Superior OS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="bianca_settings_title">カスタマイズ</string>
+  <string name="bianca_dashboard_summary">ROM をカスタマイズします</string>
+  <!-- Categories -->
+  <string name="animations_title">アニメーション</string>
+  <string name="interface_title">インターフェース</string>
+  <string name="button_title">ボタン</string>
+  <string name="gestures_title">ジェスチャー</string>
+  <string name="lockscreen_title">ロック画面</string>
+  <string name="misc_title">その他</string>
+  <string name="misc_summary">高度な再起動、再生コントロール</string>
+  <string name="monet_title">Monet エンジン</string>
+  <string name="monet_summary">カスタムカラー、白輝度など</string>
+  <string name="navbar_title">ナビゲーションバー</string>
+  <string name="navbar_summary">カスタムアクション、レイアウト</string>
+  <string name="powermenu_title">電源メニュー</string>
+  <string name="quicksettings_title">クイック設定</string>
+  <string name="statusbar_title">ステータスバー</string>
+  <string name="statusbar_summary">ネットワークトラフィック、タップでスリープ</string>
+  <string name="notifications_title">通知</string>
+  <string name="network_traffics_category">ネットワークトラフィック</string>
+  <!-- Double Tap to Sleep Statusbar -->
+  <string name="double_tap_sleep_gesture_title">タップでスリープ</string>
+  <string name="double_tap_sleep_gesture_summary">ステータスバーの一部をダブルタップでデバイスがスリープ状態になります</string>
+  <!-- Global Actions -->
+  <string name="global_actions_advanced_reboot_title">高度な再起動を有効化</string>
+  <string name="global_actions_advanced_reboot_summary">電源メニューにリカバリーとブートローダーのオプションを追加します</string>
+  <!-- Volume rocker music control -->
+  <string name="volume_button_music_control_title">再生コントロール</string>
+  <string name="volume_button_music_control_summary">画面が消灯時に音量ボタンを長押しで曲をスキップできます</string>
+  <!-- Network Traffic -->
+  <string name="network_traffic_state_title">ネットワークトラフィックを表示</string>
+  <string name="network_traffic_location_title">場所</string>
+  <string name="network_traffic_disabled">無効</string>
+  <string name="network_traffic_statusbar">ステータスバー</string>
+  <string name="network_traffic_qs_header">クイック設定のヘッダー</string>
+  <string name="network_traffic_mode_title">画面モード</string>
+  <string name="network_traffic_dynamic">ダイナミック</string>
+  <string name="network_traffic_download">ダウンロード</string>
+  <string name="network_traffic_upload">アップロード</string>
+  <string name="network_traffic_autohide_threshold_title">自動非表示のしきい値</string>
+  <string name="network_traffic_refresh_interval_title">更新間隔</string>
+  <!-- Monet Engine -->
+  <string name="monet_engine_custom_color_title">カスタムカラーを使用する</string>
+  <string name="monet_engine_custom_color_summary">壁紙の色の代わりに Monet エンジンのカスタムカラーを使用します</string>
+  <string name="monet_engine_color_override_title">カスタムカラー</string>
+  <string name="monet_engine_white_luminance_user_title">白輝度</string>
+  <string name="monet_engine_accurate_shades_title">正確な色合いを使用する</string>
+  <string name="monet_engine_chroma_factor_title">クロマファクター</string>
+  <string name="monet_engine_linear_lightness_title">リニア輝度を使用する</string>
+  <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+  <string name="show_cpu_info">CPU 情報を表示</string>
+  <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+  <string name="show_cpu_info_summary">現在の CPU 情報をオーバーレイで表示します</string>
+  <!-- Navigation bar -->
+  <string name="navigation_bar_title">ナビゲーションバーの切り替え</string>
+  <string name="navigation_bar_summary">画面上のナビゲーションキーを有効化します</string>
+  <string name="home_key_title">ホームボタン</string>
+  <string name="back_key_title">戻るボタン</string>
+  <string name="menu_key_title">メニューボタン</string>
+  <string name="assist_key_title">アシストボタン</string>
+  <string name="app_switch_key_title">最近開いたアプリボタン</string>
+  <string name="camera_key_title">カメラボタン</string>
+  <string name="short_press_title">短く押した時のアクション</string>
+  <string name="long_press_title">長押し時のアクション</string>
+  <string name="double_tap_title">ダブルタップ時のアクション</string>
+  <string name="app_picker_dialog_title">アプリを選択</string>
+  <string name="long_press_custom_app_title">長押しのカスタムアプリ</string>
+  <string name="double_tap_custom_app_title">ダブルタップのカスタムアプリ</string>
+  <!-- Custom actions -->
+  <string name="action_nothing">アクションなし</string>
+  <string name="action_menu">メニュー</string>
+  <string name="action_app_switch">最近開いたアプリ</string>
+  <string name="action_search">アシスタント</string>
+  <string name="action_voice_search">音声検索</string>
+  <string name="action_launch_camera">カメラ</string>
+  <string name="action_last_app">最後に開いたアプリ</string>
+  <string name="action_splitscreen">分割画面</string>
+  <string name="action_flashlight">懐中電灯</string>
+  <string name="action_clear_notifications">通知をクリア</string>
+  <string name="action_volume_panel">音量パネル</string>
+  <string name="action_screen_off">画面を消灯</string>
+  <string name="action_notifications">通知</string>
+  <string name="action_power_menu">電源メニュー</string>
+  <string name="action_screenshot">スクリーンショット</string>
+  <string name="action_qs_panel">クイック設定パネル</string>
+  <string name="action_app_action">アプリ</string>
+  <string name="action_ringer_modes">着信モード</string>
+  <string name="kill_app">アプリを強制停止</string>
+  <string name="partial_screenshot">部分スクリーンショット</string>
+  <!-- Long back swipe options -->
+  <string name="right_swipe_key_title">右スワイプ</string>
+  <string name="left_swipe_key_title">左スワイプ</string>
+  <string name="long_back_swipe_timeout_title">ロングスワイプアクションのタイムアウト</string>
+  <string name="left_swipe_actions_title">ロング左スワイプアクション</string>
+  <string name="left_swipe_app_action_title">ロング左スワイプのアプリを選択</string>
+  <string name="right_swipe_actions_title">ロング右スワイプアクション</string>
+  <string name="left_vertical_swipe_key_title">左 L 字スワイプ</string>
+  <string name="right_vertical_swipe_key_title">右 L 字スワイプ</string>
+  <string name="right_swipe_app_action_title">ロング右スワイプのアプリを選択</string>
+  <string name="left_vertical_swipe_actions_title">左垂直スワイプアクション</string>
+  <string name="left_vertical_swipe_app_action_title">左垂直スワイプのアプリを選択</string>
+  <string name="right_vertical_swipe_actions_title">右垂直スワイプアクション</string>
+  <string name="right_vertical_swipe_app_action_title">左垂直スワイプのアプリを選択</string>
+  <string name="gesture_nav_tweaks_footer_info">特定のアプリを選択をしてアクションを実行する場合は、アプリピッカーでアプリを長押ししてください。\n\nランチャーが表示されている場合は、画面の一番下をスワイプでアクションをトリガーします。</string>
+  <string name="back_swipe_app_select_summary">戻るジェスチャーで起動するアプリを選択します</string>
+  <string name="back_swipe_extended_title">拡張されたスワイプアクション</string>
+  <string name="back_swipe_extended_summary">ワイドスワイプ (画面サイズの半分以上)または L 字スワイプ (縦に十分な長さ) で動作をトリガーします</string>
+  <string name="back_gesture_haptic_title">触覚フィードバック</string>
+  <string name="back_gesture_haptic_summary">戻るのジェスチャーで触覚フィードバック効果を有効化します</string>
+  <!-- HW keys -->
+  <string name="hw_keys_swap_title">ハードウェアボタンを入れ替える</string>
+  <string name="hw_keys_swap_summary">最近開いたアプリと戻るのボタンの順番を入れ替えます</string>
+  <!-- Statusbar Tuner -->
+  <string name="statusbar_items_title">ステータスバーアイコンを調整</string>
+  <string name="statusbar_items_summary">ステータスバーアイコンの表示、非表示を切り替えます</string>
+  <!-- Navigation bar -->
+  <string name="navigation_bar_layout_title">レイアウト</string>
+  <string name="navigation_bar_layout_summary">ナビゲーションバーのレイアウトをカスタマイズします</string>
+</resources>
