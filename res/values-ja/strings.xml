@@ -32,9 +32,9 @@
   <string name="powermenu_title">電源メニュー</string>
   <string name="quicksettings_title">クイック設定</string>
   <string name="statusbar_title">ステータスバー</string>
-  <string name="statusbar_summary">ネットワークトラック、タップでスリープ</string>
+  <string name="statusbar_summary">ネットワークトラフィック、タップでスリープ</string>
   <string name="notifications_title">通知</string>
-  <string name="network_traffics_category">ネットワークトラック</string>
+  <string name="network_traffics_category">ネットワークトラフィック</string>
   <!-- Double Tap to Sleep Statusbar -->
   <string name="double_tap_sleep_gesture_title">タップでスリープ</string>
   <string name="double_tap_sleep_gesture_summary">ステータスバーの一部をダブルタップでデバイスがスリープ状態になります</string>
@@ -45,7 +45,7 @@
   <string name="volume_button_music_control_title">再生コントロール</string>
   <string name="volume_button_music_control_summary">画面が消灯時に音量ボタンを長押しで曲をスキップできます</string>
   <!-- Network Traffic -->
-  <string name="network_traffic_state_title">ネットワークトラックを表示</string>
+  <string name="network_traffic_state_title">ネットワークトラフィックを表示</string>
   <string name="network_traffic_location_title">場所</string>
   <string name="network_traffic_disabled">無効</string>
   <string name="network_traffic_statusbar">ステータスバー</string>
@@ -80,9 +80,9 @@
   <string name="short_press_title">短く押した時のアクション</string>
   <string name="long_press_title">長押し時のアクション</string>
   <string name="double_tap_title">ダブルタップ時のアクション</string>
-  <string name="app_picker_dialog_title">Select an app</string>
-  <string name="long_press_custom_app_title">Long press custom app</string>
-  <string name="double_tap_custom_app_title">Double tap custom app</string>
+  <string name="app_picker_dialog_title">アプリを選択</string>
+  <string name="long_press_custom_app_title">長押しのカスタムアプリ</string>
+  <string name="double_tap_custom_app_title">ダブルタップのカスタムアプリ</string>
   <!-- Custom actions -->
   <string name="action_nothing">アクションなし</string>
   <string name="action_menu">メニュー</string>
@@ -103,34 +103,34 @@
   <string name="action_app_action">アプリ</string>
   <string name="action_ringer_modes">着信モード</string>
   <string name="kill_app">アプリを強制停止</string>
-  <string name="partial_screenshot">Partial screenshot</string>
+  <string name="partial_screenshot">部分スクリーンショット</string>
   <!-- Long back swipe options -->
   <string name="right_swipe_key_title">右スワイプ</string>
   <string name="left_swipe_key_title">左スワイプ</string>
-  <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-  <string name="left_swipe_actions_title">Long left swipe action</string>
-  <string name="left_swipe_app_action_title">Select long left swipe app</string>
-  <string name="right_swipe_actions_title">Long right swipe action</string>
-  <string name="left_vertical_swipe_key_title">Left L swipe</string>
-  <string name="right_vertical_swipe_key_title">Right L swipe</string>
-  <string name="right_swipe_app_action_title">Select long right swipe app</string>
-  <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
-  <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-  <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
-  <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-  <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-  <string name="back_swipe_app_select_summary">Select an app to launch with the back gesture</string>
-  <string name="back_swipe_extended_title">Extended swipe action</string>
-  <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
-  <string name="back_gesture_haptic_title">Haptic feedback</string>
-  <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+  <string name="long_back_swipe_timeout_title">ロングスワイプアクションのタイムアウト</string>
+  <string name="left_swipe_actions_title">ロング左スワイプアクション</string>
+  <string name="left_swipe_app_action_title">ロング左スワイプのアプリを選択</string>
+  <string name="right_swipe_actions_title">ロング右スワイプアクション</string>
+  <string name="left_vertical_swipe_key_title">左 L 字スワイプ</string>
+  <string name="right_vertical_swipe_key_title">右 L 字スワイプ</string>
+  <string name="right_swipe_app_action_title">ロング右スワイプのアプリを選択</string>
+  <string name="left_vertical_swipe_actions_title">左垂直スワイプアクション</string>
+  <string name="left_vertical_swipe_app_action_title">左垂直スワイプのアプリを選択</string>
+  <string name="right_vertical_swipe_actions_title">右垂直スワイプアクション</string>
+  <string name="right_vertical_swipe_app_action_title">左垂直スワイプのアプリを選択</string>
+  <string name="gesture_nav_tweaks_footer_info">特定のアプリを選択をしてアクションを実行する場合は、アプリピッカーでアプリを長押ししてください。\n\nランチャーが表示されている場合は、画面の一番下をスワイプでアクションをトリガーします。</string>
+  <string name="back_swipe_app_select_summary">戻るジェスチャーで起動するアプリを選択します</string>
+  <string name="back_swipe_extended_title">拡張されたスワイプアクション</string>
+  <string name="back_swipe_extended_summary">ワイドスワイプ (画面サイズの半分以上)または L 字スワイプ (縦に十分な長さ) で動作をトリガーします</string>
+  <string name="back_gesture_haptic_title">触覚フィードバック</string>
+  <string name="back_gesture_haptic_summary">戻るのジェスチャーで触覚フィードバック効果を有効化します</string>
   <!-- HW keys -->
   <string name="hw_keys_swap_title">ハードウェアボタンを入れ替える</string>
-  <string name="hw_keys_swap_summary">Swap the order of recents and back buttons</string>
+  <string name="hw_keys_swap_summary">最近開いたアプリと戻るのボタンの順番を入れ替えます</string>
   <!-- Statusbar Tuner -->
   <string name="statusbar_items_title">ステータスバーアイコンを調整</string>
-  <string name="statusbar_items_summary">Toggle the visibility of icons in statusbar</string>
+  <string name="statusbar_items_summary">ステータスバーアイコンの表示、非表示を切り替えます</string>
   <!-- Navigation bar -->
   <string name="navigation_bar_layout_title">レイアウト</string>
-  <string name="navigation_bar_layout_summary">Customize the layout of the navigation bar</string>
+  <string name="navigation_bar_layout_summary">ナビゲーションバーのレイアウトをカスタマイズします</string>
 </resources>
