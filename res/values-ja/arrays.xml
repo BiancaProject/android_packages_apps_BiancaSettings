@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017-2019 The Dirty Unicorns Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Network traffic location -->
+  <string-array name="network_traffic_location_entries" translatable="false">
+    <item>@string/network_traffic_disabled</item>
+    <item>@string/network_traffic_statusbar</item>
+    <item>@string/network_traffic_qs_header</item>
+  </string-array>
+  <string-array name="network_traffic_location_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <string-array name="network_traffic_mode_entries" translatable="false">
+    <item>@string/network_traffic_dynamic</item>
+    <item>@string/network_traffic_download</item>
+    <item>@string/network_traffic_upload</item>
+  </string-array>
+  <string-array name="network_traffic_mode_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+  </string-array>
+  <!-- Buttons -->
+  <string-array name="action_entries" translatable="false">
+    <item>@string/action_nothing</item>
+    <item>@string/action_menu</item>
+    <item>@string/action_app_switch</item>
+    <item>@string/action_search</item>
+    <item>@string/action_voice_search</item>
+    <item>@string/action_launch_camera</item>
+    <item>@string/action_last_app</item>
+    <item>@string/action_splitscreen</item>
+    <item>@string/action_flashlight</item>
+    <item>@string/action_clear_notifications</item>
+    <item>@string/action_volume_panel</item>
+    <item>@string/action_screen_off</item>
+    <item>@string/action_notifications</item>
+    <item>@string/action_power_menu</item>
+    <item>@string/action_screenshot</item>
+    <item>@string/action_qs_panel</item>
+    <item>@string/action_app_action</item>
+    <item>@string/action_ringer_modes</item>
+    <item>@string/kill_app</item>
+    <item>@string/partial_screenshot</item>
+  </string-array>
+  <string-array name="action_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+  </string-array>
+  <!-- Active edge and back swipe actions -->
+  <string-array name="back_swipe_actions_entries" translatable="false">
+    <item>@string/action_nothing</item>
+    <item>@string/action_flashlight</item>
+    <item>@string/action_app_action</item>
+    <item>@string/action_volume_panel</item>
+    <item>@string/action_screen_off</item>
+    <item>@string/action_screenshot</item>
+    <item>@string/action_notifications</item>
+    <item>@string/action_qs_panel</item>
+    <item>@string/action_clear_notifications</item>
+    <item>@string/action_ringer_modes</item>
+    <item>@string/kill_app</item>
+    <item>@string/partial_screenshot</item>
+  </string-array>
+  <string-array name="back_swipe_actions_values" translatable="false">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+  </string-array>
+  <string-array name="long_back_swipe_timeout_entries">
+    <item>250 ミリ秒</item>
+    <item>300 ミリ秒</item>
+    <item>500 ミリ秒</item>
+    <item>1000 ミリ秒</item>
+    <item>1500 ミリ秒</item>
+    <item>2000 ミリ秒</item>
+  </string-array>
+  <string-array name="long_back_swipe_timeout_values" translatable="false">
+    <item>250</item>
+    <item>300</item>
+    <item>500</item>
+    <item>1000</item>
+    <item>1500</item>
+    <item>2000</item>
+  </string-array>
+</resources>
